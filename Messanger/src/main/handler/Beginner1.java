@@ -17,7 +17,8 @@ public class Beginner1 {
 		/*
 		 * To receive data over socket, keep bellow line uncomment
 		 */
-		this.ps = new PubSub(this,"subhojit");//------------I am listing in this Id
+		//edited by pijus
+		this.ps = new PubSub(this,"pijus");//------------I am listing in this Id
 		System.out.println("TRANSACTION ID IN MAIN : " + this.ps);
 		/*
 		 * To test through console-uncomment bellow line and comment above line---[Dummy input]---------------
