@@ -9,7 +9,7 @@ import common.socket.messanger.PubSubConsoleDummy;
  * You can send & receive message through this app
  */
 	/*Git commit*/
-//changesdf sdaf
+//First Commit
 public class Beginner1 {
 	
 	public PubSub ps = null;
