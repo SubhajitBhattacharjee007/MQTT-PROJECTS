@@ -1,0 +1,71 @@
+
+public class asasdsad {
+	
+	
+	Operator : 
+		Register 	   : R
+		OTP Validation : V
+		
+	
+	OUR TOPIC : HelloFoodTruck
+		
+		[USER REGISTRATION]
+	
+	PIJUS 	 --> Step 1 : Register : { Operater, topic, mobile, password }
+	SUBHAJIT --> Step 2 : Send OTP   ( Generated from my end and send to user ) 
+	
+	Json step 1 : {"O":"R", "M":"1234567890","T":"123","P":"*******"}
+	Json step 2 : Testing send OTP in same number
+	
+	
+	PIJUS 	 --> Step 3 : OTP Validation { Operator, topic, mobile, otp }
+	Json step 3 : {"O":"V", "M":"1234567890","T":"123","OTP":"*******"}
+
+	SUBHAJIT --> Step 4 : Authentication user saved {boolean true, false}
+	Json step 4 : {"V":"T/F"}
+	 	
+		
+		[USER AUTHENTICATION]
+	PIJUS 	 --> Step 1 : Auth : { modile, password }
+	Json step 1 : {"M":"1234567890", "P":"*******", "T":"Topic"}
+	
+	SUBHAJIT --> Step 2 : Authenticated {Boolean true, false} against Topic(tempid)
+	Json step 2 : {T/F}
+	 
+	
+	 
+	 
+	 
+	 	[AFTER LOGIN]
+	Step 1 : Initial Coordinate
+	Step 2 : 5 mins Coordinate update 
+	 	
+	 
+	 
+	 	
+	 
+	 
+	
+ 	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}
+
