@@ -17,8 +17,8 @@ public class Beginner1 {
 	public Beginner1() {
 		/*
 		 * To receive data over socket, keep bellow line uncomment
-		 */
-		//edited by pijus
+		 //hello
+		//edited by pijus jhkgjhgjhg
 		this.ps = new PubSub(this,"pijus");//------------I am listing in this Id
 		System.out.println("TRANSACTION ID IN MAIN : " + this.ps);
 		/*
